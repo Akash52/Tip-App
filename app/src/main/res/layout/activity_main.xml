@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/BgColor"
     tools:context=".MainActivity">
 
     <TextView
@@ -69,10 +70,10 @@
         android:layout_width="200dp"
         android:layout_height="20dp"
         android:layout_marginStart="32dp"
-        app:layout_constraintStart_toEndOf="@+id/tvtipPerce"
+        android:max="30"
         app:layout_constraintBottom_toBottomOf="@id/tvtipPerce"
-        app:layout_constraintTop_toTopOf="@id/tvtipPerce"
-         />
+        app:layout_constraintStart_toEndOf="@+id/tvtipPerce"
+        app:layout_constraintTop_toTopOf="@id/tvtipPerce" />
 
     <TextView
         android:id="@+id/tvTpiAmount"
